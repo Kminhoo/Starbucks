@@ -47,5 +47,7 @@ CSS의 선택자의 종류, 우선 순위, ID, Class 선택자를 주로 사용�
 CDN 방식을 이용한 Swiper, gsap, scrollMagic을 사용하였습니다.
 DOM 조작, 이벤트핸들러, 내장객체 등 Javascript의 기본적인 내용을 배우고 활용했습니다.
 
+- 배포
 
+Netlify를 통해 정적인 웹사이트 배포하는 방법에 대해 공부했습니다.
 
