@@ -1,5 +1,6 @@
 # ☕️Starbucks Site, sign-in
-스타벅스 홈페이지와 로그인 페이지를 만들어보는 과정
+이 프로젝트는 스타벅스 홈페이지를 클론코딩한 프로젝트 입니다.
+HTML, CSS, JS를 사용해서 구현하였습니다.
  
 
 [완성본](https://unique-belekoy-9a451a.netlify.app/)
@@ -7,11 +8,18 @@
 
 ![img (1)](https://github.com/Kminhoo/Starbucks/assets/102332763/dd82d7c0-e7c6-4c48-864c-1b943484eb48)
 
-## HTML구조
-각 구역을 section 태그를 사용해 분류하고 필요한 태그들을 시멘틱하게 사용하는 방법을 공부했다.
 
-시멘틱한 태그 사용의 중요성을 공부하고, img, a 태그와 같이 속성을 가지고 있는 태그들의 적절한 속성 사용에 대해 공부했다.
-#### twitter card 와 Open Graph 를 이용한 소셜미디어 공유 정보
+## 프로젝트 소개
+- 이 프로젝트는 웹 개발 학습의 기초를 다지기 위해 진행했습니다.
+- 기존의 스타벅스 홈페이지의 기능와 디자인을 최대한 재현하려 노력했습니다.
+
+## 학습 내용 
+- HTML5
+
+HTML5 에 대해 이해하고 각 요소의 태그들의 의미를 파악했습니다.
+구조적으로 최대한 시멘틱한 요소를 사용하기 위해 노력했습니다.
+
+### twitter card 와 Open Graph 를 이용한 소셜미디어 공유 정보
 ```html
   <meta property="twitter:card" content="summary" />
   <meta property="twitter:site" content="Starbucks" />
@@ -27,7 +35,17 @@
   <meta property="og:image" content="./images/starbucks_seo.jpg" />
   <meta property="og:url" content="https://starbucks.co.kr" />
 ```
-twitter card 와 Open Graph를 이용한 소셜미디어 공유 정보에 대해 공유되는 내용에 대해 공부하고 이해했다.
+twitter card 와 Open Graph를 이용한 소셜미디어 공유 정보에 대해 공유되는 내용을 공부하였으며, 시멘틱한 태그의 사용과, meta 태그의 사용으로 검색엔진최적화에 기여할 수 있다는 것을 공부했습니다.
 
-## CSS
+
+- CSS
+
+CSS의 선택자의 종류, 우선 순위, ID, Class 선택자를 주로 사용했고, Flexbox를 사용해서 웹페이지의 레이아웃과 디자인을 구성하는데 사용하였습니다.
+
+- JavaScript
+
+CDN 방식을 이용한 Swiper, gsap, scrollMagic을 사용하였습니다.
+DOM 조작, 이벤트핸들러, 내장객체 등 Javascript의 기본적인 내용을 배우고 활용했습니다.
+
+
 
